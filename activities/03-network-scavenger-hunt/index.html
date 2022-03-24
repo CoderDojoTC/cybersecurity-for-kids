@@ -417,8 +417,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-how-fast-is-your-connection" class="md-nav__link">
-    Step 3: How fast is your connection?
+  <a href="#lab-3-how-fast-is-your-internet-connection" class="md-nav__link">
+    Lab 3: How fast is your internet connection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-4-what-is-your-mac-address" class="md-nav__link">
+    Lab 4: What is your MAC address?
   </a>
   
 </li>
@@ -436,18 +443,12 @@
     Ping Test Lab
   </a>
   
-    <nav class="md-nav" aria-label="Ping Test Lab">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    
-  </a>
-  
 </li>
         
-      </ul>
-    </nav>
+          <li class="md-nav__item">
+  <a href="#traceroute" class="md-nav__link">
+    Traceroute
+  </a>
   
 </li>
         
@@ -570,8 +571,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-how-fast-is-your-connection" class="md-nav__link">
-    Step 3: How fast is your connection?
+  <a href="#lab-3-how-fast-is-your-internet-connection" class="md-nav__link">
+    Lab 3: How fast is your internet connection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lab-4-what-is-your-mac-address" class="md-nav__link">
+    Lab 4: What is your MAC address?
   </a>
   
 </li>
@@ -589,18 +597,12 @@
     Ping Test Lab
   </a>
   
-    <nav class="md-nav" aria-label="Ping Test Lab">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    
-  </a>
-  
 </li>
         
-      </ul>
-    </nav>
+          <li class="md-nav__item">
+  <a href="#traceroute" class="md-nav__link">
+    Traceroute
+  </a>
   
 </li>
         
@@ -635,8 +637,14 @@
 <h3 id="lab-2-what-is-your-wifi-network-name">Lab 2: What is your WiFi network name?</h3>
 <p>Each computer that uses WiFi must connect to the network through a WiFi router that has a name?  How can you find out what your WiFi network name is?
 (Hint: use a search service to find the instructions for your device: Chrome, Windows, Mac, iPad)</p>
-<h2 id="step-3-how-fast-is-your-connection">Step 3: How fast is your connection?</h2>
-<p>Look for a program that can test your connection speed.  What is your download and upload speed?  What other information can you find about </p>
+<h2 id="lab-3-how-fast-is-your-internet-connection">Lab 3: How fast is your internet connection?</h2>
+<p>Look for a program that can test your connection speed.  What is your download and upload speed?  What other information can you find about the time it takes to send a short packet of information back and forth from the server (latency).</p>
+<h2 id="lab-4-what-is-your-mac-address">Lab 4: What is your MAC address?</h2>
+<p>For each network interface in your computer, there is a unique MAC address associated with it. This is called the Media Access Control (MAC) address.  This number is permanently burned into each device when it is manufactured and it is guaranteed to be unique across the internet.</p>
+<p>You usually can find MAC addresses in the system settings, general information, or network settings/status of your device. Sometimes the MAC address is printed on a property tag or label so that your organization can track the device.</p>
+<p>Here are some instructions on finding the MAC address on your Windows or Mac:
+<a href="https://slts.osu.edu/articles/whats-a-mac-address-and-how-do-i-find-it/">What's a MAC Address and how do I find it?</a></p>
+<p>Note that in this case "MAC" has nothing to do with the Apple Mac operating system!</p>
 <h2 id="advanced-labs">Advanced Labs</h2>
 <p>To do these labs, you will need to access your computer's command shell or Terminal (on the Mac).  If you are running ChromeOS your school may not have the ChromOS shell installed.</p>
 <h3 id="ping-test-lab">Ping Test Lab</h3>
@@ -687,7 +695,13 @@ round-trip min/avg/max/stddev <span class="o">=</span> <span class="m">43</span>
 <li>Why do you think there are variations in the times?</li>
 <li>What do you think happens if one of the computers connecting your computers goes down? (crashes)</li>
 </ol>
-<h4 id="_1"></h4>
+<h3 id="traceroute">Traceroute</h3>
+<p>You can also see the exact route that your computer takes to send data to and from any report system.  This is useful for debugging things when your connection to the internet is down.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span></pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>traceroute www.google.com
+</code></pre></div>
+</td></tr></table>
+<p>This will show you the times it takes to reach each of the computers between your computers and the destination computer.</p>
+<p>Search for "How to use traceroute on Windows/Mac" for more details.</p>
                 
               
               
