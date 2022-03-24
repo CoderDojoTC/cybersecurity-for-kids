@@ -309,12 +309,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
       
       <label class="md-nav__link" for="nav-3">
         Activities
@@ -345,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../02-rot13.md" class="md-nav__link">
+      <a href="../02-rot13-game/" class="md-nav__link">
         ROT13 Game
       </a>
     </li>
@@ -355,11 +357,109 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../02-network-scavenger-hunt.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Network Scavenger Hunt
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Network Scavenger Hunt
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#beginning-labs" class="md-nav__link">
+    Beginning Labs
+  </a>
+  
+    <nav class="md-nav" aria-label="Beginning Labs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lab-1-what-is-my-ip-address" class="md-nav__link">
+    Lab 1: What is my IP address?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lab-2-what-is-your-wifi-network-name" class="md-nav__link">
+    Lab 2: What is your WiFi network name?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-how-fast-is-your-connection" class="md-nav__link">
+    Step 3: How fast is your connection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-labs" class="md-nav__link">
+    Advanced Labs
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Labs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ping-test-lab" class="md-nav__link">
+    Ping Test Lab
+  </a>
+  
+    <nav class="md-nav" aria-label="Ping Test Lab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -443,16 +543,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#step-1-what-is-my-ip-address" class="md-nav__link">
-    Step 1: What is My IP Address?
+  <a href="#beginning-labs" class="md-nav__link">
+    Beginning Labs
+  </a>
+  
+    <nav class="md-nav" aria-label="Beginning Labs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lab-1-what-is-my-ip-address" class="md-nav__link">
+    Lab 1: What is my IP address?
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-what-is-the-name-of-your-wifi-network" class="md-nav__link">
-    Step 2: What is the name of your WiFi Network
+        
+          <li class="md-nav__item">
+  <a href="#lab-2-what-is-your-wifi-network-name" class="md-nav__link">
+    Lab 2: What is your WiFi network name?
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -475,6 +588,19 @@
   <a href="#ping-test-lab" class="md-nav__link">
     Ping Test Lab
   </a>
+  
+    <nav class="md-nav" aria-label="Ping Test Lab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -502,15 +628,17 @@
                 
                 <h1 id="network-scavenger-hunt">Network Scavenger Hunt</h1>
 <p>The goal of this activity is to learn to find out how your computer is connected to the internet.</p>
-<h2 id="step-1-what-is-my-ip-address">Step 1: What is My IP Address?</h2>
-<p>Each computer on the internet is assigned its own Internet Protocol Address.  What is the address assigned to your computer?  (Hint: use a search to find a service that tells you what your IP address is)</p>
-<h2 id="step-2-what-is-the-name-of-your-wifi-network">Step 2: What is the name of your WiFi Network</h2>
+<h2 id="beginning-labs">Beginning Labs</h2>
+<p>Beginning labs only require a web browser.</p>
+<h3 id="lab-1-what-is-my-ip-address">Lab 1: What is my IP address?</h3>
+<p>Each computer on the internet is assigned its own Internet Protocol Address.  What is the address assigned to your computer?  (Hint: use a search to find a service that tells you what your IP address is).</p>
+<h3 id="lab-2-what-is-your-wifi-network-name">Lab 2: What is your WiFi network name?</h3>
 <p>Each computer that uses WiFi must connect to the network through a WiFi router that has a name?  How can you find out what your WiFi network name is?
 (Hint: use a search service to find the instructions for your device: Chrome, Windows, Mac, iPad)</p>
 <h2 id="step-3-how-fast-is-your-connection">Step 3: How fast is your connection?</h2>
-<p>Look for a program that can test your connection speed.  What is your download and upload speed?</p>
+<p>Look for a program that can test your connection speed.  What is your download and upload speed?  What other information can you find about </p>
 <h2 id="advanced-labs">Advanced Labs</h2>
-<p>To do these labs, you will need to access your computer's command shell or Terminal (on the Mac).</p>
+<p>To do these labs, you will need to access your computer's command shell or Terminal (on the Mac).  If you are running ChromeOS your school may not have the ChromOS shell installed.</p>
 <h3 id="ping-test-lab">Ping Test Lab</h3>
 <p>Ping is a useful program that will help you see the time it takes your computer to communicate with a report computer.  It is named after the way that submarines sent out sounds underwater to see what items were near it (sonar).  You can use it to debug network problems.</p>
 <p>Search for how to use the "ping" program on your operating systems:</p>
@@ -559,6 +687,7 @@ round-trip min/avg/max/stddev <span class="o">=</span> <span class="m">43</span>
 <li>Why do you think there are variations in the times?</li>
 <li>What do you think happens if one of the computers connecting your computers goes down? (crashes)</li>
 </ol>
+<h4 id="_1"></h4>
                 
               
               
@@ -573,6 +702,41 @@ round-trip min/avg/max/stddev <span class="o">=</span> <span class="m">43</span>
       
         
   <footer class="md-footer">
+    
+      <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="../02-rot13-game/" title="ROT13 Game" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span class="md-footer-nav__direction">
+                    Previous
+                  </span>
+                  ROT13 Game
+                </span>
+              </div>
+            </a>
+          
+          
+            <a href="../../glossary/" title="Glossary" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span class="md-footer-nav__direction">
+                    Next
+                  </span>
+                  Glossary
+                </span>
+              </div>
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+              </div>
+            </a>
+          
+        </nav>
+      </div>
     
     <div class="md-footer-meta md-typeset">
       <div class="md-footer-meta__inner md-grid">
