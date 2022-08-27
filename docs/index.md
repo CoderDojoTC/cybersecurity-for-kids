@@ -1,6 +1,6 @@
 # CoderDojo Twin Cities Cybersecurity for Kids
 
-![Girl at the Keyboard](img/girl-at-the-keyboard.png) {: style="height:150px;width:150px"}
+![Girl at the Keyboard](img/girl-at-the-keyboard.png)
 
 This GitHub repository is for sharing teaching resources to teach computer security to students ages 12-14 years old.
 
