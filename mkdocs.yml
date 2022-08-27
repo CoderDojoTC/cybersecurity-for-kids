@@ -31,14 +31,14 @@ theme:
   custom_dir: 'theme'
   include_sidebar: true
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - footnotes
+  - codehilite:
+      linenums: true
   - toc:
       permalink: true
-  - codehilite:
-      linenums: true
 plugins:
     - search
-markdown_extensions:
-  - codehilite:
-      linenums: true
+
